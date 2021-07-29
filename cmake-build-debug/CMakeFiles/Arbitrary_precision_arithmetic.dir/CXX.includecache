@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zaur/Documents/GitHub/Arbitrary-precision-arithmetic/Arithmetic.cpp
+Arithmetic.h
+/Users/zaur/Documents/GitHub/Arbitrary-precision-arithmetic/Arithmetic.h
+
+/Users/zaur/Documents/GitHub/Arbitrary-precision-arithmetic/Arithmetic.h
+istream
+-
+
+/Users/zaur/Documents/GitHub/Arbitrary-precision-arithmetic/main.cpp
+iostream
+-
+Arithmetic.h
+/Users/zaur/Documents/GitHub/Arbitrary-precision-arithmetic/Arithmetic.h
+
