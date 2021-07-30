@@ -12,9 +12,7 @@ class Arithmetic{
 private:
     bool sign;
     unsigned int* number;
-//    std::vector<unsigned int> number;
     unsigned int length;
-    unsigned int count;
 
     const unsigned long base = 1000*1000*1000;
 
@@ -25,11 +23,25 @@ private:
 public:
 
     Arithmetic();
+    Arithmetic(Arithmetic& a);
+    Arithmetic(Arithmetic&& a) noexcept;
+
+    Arithmetic& operator= (Arithmetic const& a);
 
     friend std::istream& operator>> (std::istream& in, Arithmetic& a);
     friend std::ostream& operator<< (std::ostream& out, Arithmetic& a);
 
     friend Arithmetic operator+ (Arithmetic& left, Arithmetic& right);
+    friend Arithmetic operator- (Arithmetic& left, Arithmetic& right);
+
+    friend bool operator> (Arithmetic left, Arithmetic right);
+    friend bool operator< (Arithmetic left, Arithmetic right);
+    friend bool operator>= (Arithmetic left, Arithmetic right);
+    friend bool operator<= (Arithmetic left, Arithmetic right);
+    friend bool operator== (Arithmetic left, Arithmetic right);
+    friend bool operator!= (Arithmetic left, Arithmetic right);
+
+
 
 
 };
