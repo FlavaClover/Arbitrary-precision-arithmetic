@@ -6,15 +6,17 @@
 #define ARBITRARY_PRECISION_ARITHMETIC_ARITHMETIC_H
 
 #include <istream>
+#include <vector>
 
 class Arithmetic{
 private:
     bool sign;
     unsigned int* number;
+//    std::vector<unsigned int> number;
     unsigned int length;
     unsigned int count;
 
-    const unsigned long base = 4294967296;
+    const unsigned long base = 1000*1000*1000;
 
     void AddBack(unsigned int num);
     void DeleteBack();
@@ -26,6 +28,8 @@ public:
 
     friend std::istream& operator>> (std::istream& in, Arithmetic& a);
     friend std::ostream& operator<< (std::ostream& out, Arithmetic& a);
+
+    friend Arithmetic operator+ (Arithmetic& left, Arithmetic& right);
 
 
 };

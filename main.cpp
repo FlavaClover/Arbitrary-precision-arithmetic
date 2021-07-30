@@ -6,9 +6,16 @@ using namespace std;
 
 int main() {
 
-    Arithmetic a = Arithmetic();
+    while(true) {
+        Arithmetic a = Arithmetic();
+        Arithmetic b = Arithmetic();
 
-    cin >> a;
-    cout << a;
+        cin >> a >> b;
+        cout << a << " " << b << endl;
+
+        Arithmetic result = a + b;
+        cout << result << endl << endl;
+
+    }
     return 0;
 }
