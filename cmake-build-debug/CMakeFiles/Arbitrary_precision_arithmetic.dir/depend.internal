@@ -4,6 +4,10 @@
 CMakeFiles/Arbitrary_precision_arithmetic.dir/Arithmetic.cpp.o
  /Users/zaur/Documents/GitHub/Arbitrary-precision-arithmetic/Arithmetic.cpp
  /Users/zaur/Documents/GitHub/Arbitrary-precision-arithmetic/Arithmetic.h
+CMakeFiles/Arbitrary_precision_arithmetic.dir/BigInteger.cpp.o
+ /Users/zaur/Documents/GitHub/Arbitrary-precision-arithmetic/BigInteger.cpp
+ /Users/zaur/Documents/GitHub/Arbitrary-precision-arithmetic/BigInteger.h
 CMakeFiles/Arbitrary_precision_arithmetic.dir/main.cpp.o
  /Users/zaur/Documents/GitHub/Arbitrary-precision-arithmetic/Arithmetic.h
+ /Users/zaur/Documents/GitHub/Arbitrary-precision-arithmetic/BigInteger.h
  /Users/zaur/Documents/GitHub/Arbitrary-precision-arithmetic/main.cpp

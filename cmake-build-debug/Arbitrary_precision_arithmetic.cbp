@@ -86,6 +86,12 @@
 		<Unit filename="/Users/zaur/Documents/GitHub/Arbitrary-precision-arithmetic/Arithmetic.h">
 			<Option target="Arbitrary_precision_arithmetic"/>
 		</Unit>
+		<Unit filename="/Users/zaur/Documents/GitHub/Arbitrary-precision-arithmetic/BigInteger.cpp">
+			<Option target="Arbitrary_precision_arithmetic"/>
+		</Unit>
+		<Unit filename="/Users/zaur/Documents/GitHub/Arbitrary-precision-arithmetic/BigInteger.h">
+			<Option target="Arbitrary_precision_arithmetic"/>
+		</Unit>
 		<Unit filename="/Users/zaur/Documents/GitHub/Arbitrary-precision-arithmetic/main.cpp">
 			<Option target="Arbitrary_precision_arithmetic"/>
 		</Unit>

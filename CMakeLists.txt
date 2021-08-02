@@ -3,4 +3,4 @@ project(Arbitrary_precision_arithmetic)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Arbitrary_precision_arithmetic main.cpp Arithmetic.h Arithmetic.cpp)
+add_executable(Arbitrary_precision_arithmetic main.cpp Arithmetic.h Arithmetic.cpp BigInteger.h BigInteger.cpp)

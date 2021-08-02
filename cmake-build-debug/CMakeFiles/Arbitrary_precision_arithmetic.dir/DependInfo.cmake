@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/zaur/Documents/GitHub/Arbitrary-precision-arithmetic/Arithmetic.cpp" "/Users/zaur/Documents/GitHub/Arbitrary-precision-arithmetic/cmake-build-debug/CMakeFiles/Arbitrary_precision_arithmetic.dir/Arithmetic.cpp.o"
+  "/Users/zaur/Documents/GitHub/Arbitrary-precision-arithmetic/BigInteger.cpp" "/Users/zaur/Documents/GitHub/Arbitrary-precision-arithmetic/cmake-build-debug/CMakeFiles/Arbitrary_precision_arithmetic.dir/BigInteger.cpp.o"
   "/Users/zaur/Documents/GitHub/Arbitrary-precision-arithmetic/main.cpp" "/Users/zaur/Documents/GitHub/Arbitrary-precision-arithmetic/cmake-build-debug/CMakeFiles/Arbitrary_precision_arithmetic.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

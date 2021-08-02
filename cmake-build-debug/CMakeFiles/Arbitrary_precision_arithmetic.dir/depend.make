@@ -4,6 +4,10 @@
 CMakeFiles/Arbitrary_precision_arithmetic.dir/Arithmetic.cpp.o: ../Arithmetic.cpp
 CMakeFiles/Arbitrary_precision_arithmetic.dir/Arithmetic.cpp.o: ../Arithmetic.h
 
+CMakeFiles/Arbitrary_precision_arithmetic.dir/BigInteger.cpp.o: ../BigInteger.cpp
+CMakeFiles/Arbitrary_precision_arithmetic.dir/BigInteger.cpp.o: ../BigInteger.h
+
 CMakeFiles/Arbitrary_precision_arithmetic.dir/main.cpp.o: ../Arithmetic.h
+CMakeFiles/Arbitrary_precision_arithmetic.dir/main.cpp.o: ../BigInteger.h
 CMakeFiles/Arbitrary_precision_arithmetic.dir/main.cpp.o: ../main.cpp
 

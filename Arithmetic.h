@@ -14,7 +14,7 @@ private:
     int* number;
     int length;
 
-    const unsigned long base = 1000*1000*1000;
+    const unsigned long base = 4294967296;
 
     void AddBack(int num);
     void DeleteBack();

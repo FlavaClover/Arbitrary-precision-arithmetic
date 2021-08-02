@@ -1,10 +1,11 @@
 #include <iostream>
 #include "Arithmetic.h"
+#include "BigInteger.h"
 using namespace std;
 
 
 
-int main() {
+int First() {
 
     Arithmetic n("1190");
     while(true) {
@@ -15,14 +16,14 @@ int main() {
 
         cin >> a >> b;
 
-//        cout << "a == b = " << (a == b) << endl;
-//        cout << "a != b = " << (a != b) << endl;
-//        cout << "a > b = " << (a > b) << endl;
-//        cout << "a < b = " << (a < b) << endl;
-//        cout << "a >= b = " << (a >= b) << endl;
-//        cout << "a <= b = " << (a <= b) << endl;
-//
-//        cout << endl;
+        cout << "a == b = " << (a == b) << endl;
+        cout << "a != b = " << (a != b) << endl;
+        cout << "a > b = " << (a > b) << endl;
+        cout << "a < b = " << (a < b) << endl;
+        cout << "a >= b = " << (a >= b) << endl;
+        cout << "a <= b = " << (a <= b) << endl;
+
+        cout << endl;
         Arithmetic result = a + b;
         cout << a <<  " + " << b  << " = " << result << endl;
 
@@ -40,3 +41,27 @@ int main() {
     }
     return 0;
 }
+
+
+int main(){
+    std::cout.setf(std::ios_base::boolalpha);
+    while(true){
+        BigInteger a, b;
+        cin >> a >> b;
+
+        cout << a << " == " << b << " -> " << (a == b) << endl;
+        cout << a << " != " << b << " -> " << (a != b) << endl;
+        cout << a << " < " << b << " -> " << (a < b) << endl;
+        cout << a << " <= " << b << " -> " << (a <= b) << endl;
+        cout << a << " > " << b << " -> " << (a > b) << endl << endl;
+
+        cout << a << " + " << b << " = " << a + b << endl;
+        cout << a << " - " << b << " = " << a - b << endl;
+
+        cout << endl << endl;
+        string command;
+        cout << "Continue?(y/n): "; cin >> command;
+        if(command == "n") break;
+    }
+}
+

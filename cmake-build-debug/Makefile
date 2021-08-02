@@ -170,6 +170,33 @@ Arithmetic.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Arbitrary_precision_arithmetic.dir/build.make CMakeFiles/Arbitrary_precision_arithmetic.dir/Arithmetic.cpp.s
 .PHONY : Arithmetic.cpp.s
 
+BigInteger.o: BigInteger.cpp.o
+
+.PHONY : BigInteger.o
+
+# target to build an object file
+BigInteger.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Arbitrary_precision_arithmetic.dir/build.make CMakeFiles/Arbitrary_precision_arithmetic.dir/BigInteger.cpp.o
+.PHONY : BigInteger.cpp.o
+
+BigInteger.i: BigInteger.cpp.i
+
+.PHONY : BigInteger.i
+
+# target to preprocess a source file
+BigInteger.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Arbitrary_precision_arithmetic.dir/build.make CMakeFiles/Arbitrary_precision_arithmetic.dir/BigInteger.cpp.i
+.PHONY : BigInteger.cpp.i
+
+BigInteger.s: BigInteger.cpp.s
+
+.PHONY : BigInteger.s
+
+# target to generate assembly for a file
+BigInteger.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Arbitrary_precision_arithmetic.dir/build.make CMakeFiles/Arbitrary_precision_arithmetic.dir/BigInteger.cpp.s
+.PHONY : BigInteger.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -209,6 +236,9 @@ help:
 	@echo "... Arithmetic.o"
 	@echo "... Arithmetic.i"
 	@echo "... Arithmetic.s"
+	@echo "... BigInteger.o"
+	@echo "... BigInteger.i"
+	@echo "... BigInteger.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

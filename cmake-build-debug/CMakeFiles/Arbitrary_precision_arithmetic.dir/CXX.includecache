@@ -6,12 +6,14 @@
 
 #IncludeRegexTransform: 
 
-/Users/zaur/Documents/GitHub/Arbitrary-precision-arithmetic/Arithmetic.cpp
-Arithmetic.h
-/Users/zaur/Documents/GitHub/Arbitrary-precision-arithmetic/Arithmetic.h
+/Users/zaur/Documents/GitHub/Arbitrary-precision-arithmetic/BigInteger.cpp
+BigInteger.h
+/Users/zaur/Documents/GitHub/Arbitrary-precision-arithmetic/BigInteger.h
 
-/Users/zaur/Documents/GitHub/Arbitrary-precision-arithmetic/Arithmetic.h
-istream
+/Users/zaur/Documents/GitHub/Arbitrary-precision-arithmetic/BigInteger.h
+iostream
+-
+iomanip
 -
 vector
 -
